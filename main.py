@@ -26,8 +26,8 @@ col_1, col_2 = st.columns([1, 3])
 with col_1 :
     # foto
     with st.container():
-        img_path = st.secrets.path_configuration['path_image']
-        berkas_foto = 'foto_imut.jpeg'
+        #img_path = st.secrets.path_configuration['path_image']
+        #berkas_foto = 'foto_imut.jpeg'
         #st.image(image=f'{img_path}{berkas_foto}')
         st.image(image=f'file/img/foto_imut.jpeg')
 
